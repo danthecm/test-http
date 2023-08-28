@@ -15,8 +15,3 @@ services:
       - "APACHE_DOCUMENT_ROOT=/app/public"
     volumes:
       - ./:/app
-
-networks:
-  default:
-    external:
-      name: test-http
